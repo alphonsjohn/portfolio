@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: "Archivo", sans-serif; */
+    font-family: "Oswald", sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(193, 206, 218);
+
+}
+h1{
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    
+}
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+ header ul{
+    display: flex;
+    justify-content: space-around;
+} 
+header ul li{
+    margin: 20px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration:none;
+    color:white
+    
+}
+header ul li a i{
+    margin-right: 4px;
+}
+header ul li a:hover{
+    color: rgb(177, 216, 226);
+    text-shadow: 4px 3px 4px white
+}
+.section2{
+    margin: 35px;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    
+
+}
+.section2 .row3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section2 .img2{
+    width: 500px;
+    margin-right: 180px;
+
+}
+.section2 .devsec .para1{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+}
+.section2 .divsec .para12{
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5opx;
+}
+.welcome{
+    position: absolute;
+    border: 2px double white;
+    top: 50%;
+    left: 30%;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    background-color: rgba(221, 212, 212, 0.315);
+}
+span{
+    color: aqua;
+}
+#about{
+    text-align: center;
+    margin-top: 50px;
+}
+#section3{
+    margin:35px ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#section3 #para2{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    /* font-family: "Montserrat", sans-serif; */
+    font-size: 20px;
+    margin: 15px; 
+    text-align: justify;
+}
+
+#section3 #img3{
+
+    width:600px ;
+    margin:10px ;
+}
+.row1{
+    margin: 5px;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.row1 .col{
+    width:300px ;
+    height:300px ;
+    background-color: rgb(193, 206, 218);
+}
+.row1 .col h3{
+    text-align: center;
+    color:black ;
+    text-decoration: underline;
+}
+.row1 .col img{
+    width:280px ;
+    height:200px ;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+.row2{
+    margin: 5px;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.row2 .col2{
+    width:300px ;
+    height:300px ;
+    background-color: rgb(193, 206, 218);
+}
+.row2 .col2 h3{
+    text-align: center;
+    color:black ;
+    text-decoration: underline;
+}
+.row2 .col2 img{
+    width:280px ;
+    height:200px ;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: rgb(121, 140, 159);
+    color: rgb(15, 14, 14);
+    transform: rotateY(180deg);
+  }  
+.row4{
+    
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row5{
+   
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.coll{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(77, 72, 72, 0.315);
+    border-radius:20%;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.col11{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(71, 63, 63, 0.315);
+    border-radius:20%;
+    text-align: center;
+}
+.row4 .coll img{
+    width:200px ;
+    height:200px ;
+}
+.row5 .col11 img{
+    width:200px ;
+    height:200px ;
+}
+#Services{
+    text-align: center;
+}
+.row6{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(71, 63, 63, 0.315);}
+.col6{
+    font-size: x-large;
+    margin-left: 600px;
+}
+.col7{
+    text-align: center;
+    font-size: larger;
+}
+.row6.col7 input{
+    width: 500px;
+    height: 20px;
+
+}
+.col8 ul{
+    font-size: x-large;
+}
+.col8 ul li{
+    margin: 20px;
+    list-style: none;
+}
+.col8 ul li a{
+    text-decoration:none;
+    color:white
+    
+}#iicon{
+    width: 200px;
+    height: 250px;
+}
+#Contact{
+    text-align: center;
+}
